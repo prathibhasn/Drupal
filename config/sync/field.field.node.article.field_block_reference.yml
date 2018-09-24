@@ -1,0 +1,28 @@
+uuid: 3616b9d5-f4f8-49b9-8bcb-3dad3cc78084
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotater
+    - field.storage.node.field_block_reference
+    - node.type.article
+id: node.article.field_block_reference
+field_name: field_block_reference
+entity_type: node
+bundle: article
+label: 'Block Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      rotater: rotater
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
