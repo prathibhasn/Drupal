@@ -1,0 +1,23 @@
+uuid: 0ee525e4-d579-466e-a948-01729e27764c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotater
+    - field.storage.block_content.field_interval
+id: block_content.rotater.field_interval
+field_name: field_interval
+entity_type: block_content
+bundle: rotater
+label: Interval
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

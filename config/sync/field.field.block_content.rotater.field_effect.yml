@@ -1,0 +1,21 @@
+uuid: 0c36803f-1e2d-4ce6-aceb-18f29faa3616
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotater
+    - field.storage.block_content.field_effect
+  module:
+    - options
+id: block_content.rotater.field_effect
+field_name: field_effect
+entity_type: block_content
+bundle: rotater
+label: Effect
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

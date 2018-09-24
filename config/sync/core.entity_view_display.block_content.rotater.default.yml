@@ -1,0 +1,52 @@
+uuid: aabd0250-f594-4536-95f2-c2b5d44b1c9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotater
+    - field.field.block_content.rotater.body
+    - field.field.block_content.rotater.field_effect
+    - field.field.block_content.rotater.field_image
+    - field.field.block_content.rotater.field_interval
+  module:
+    - image
+    - options
+    - text
+id: block_content.rotater.default
+targetEntityType: block_content
+bundle: rotater
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_effect:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_interval:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden: {  }
