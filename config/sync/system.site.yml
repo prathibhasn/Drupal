@@ -1,0 +1,14 @@
+uuid: abcfb2ff-4937-43ab-b46a-2d6f5d526dea
+name: 'D8 training'
+mail: prathibha.sn@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
