@@ -1,0 +1,4 @@
+d8_routing_demo.local_task:
+  title: 'My Local Task'
+  route_name: d8_routing_demo.local_task_admin
+  base_route: d8_routing_demo.local_task_admin
