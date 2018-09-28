@@ -1,0 +1,14 @@
+<header>{{ page.header }}</header>
+<div id="main">
+ <article>
+ {% for value in array_data %}
+  {# {% if value > 100%} #} 
+      <h3>{{ value | title }}</h3>
+   {#  {% endif %} #} 
+ {% endfor %}
+   {{ page.content }}
+ </article>
+ <nav>{{page.navigation}}</nav>
+ <aside>{{page.aside}}</aside>
+</div>
+<footer>{{page.footer}}</footer>

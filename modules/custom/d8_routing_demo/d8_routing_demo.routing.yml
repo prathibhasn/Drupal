@@ -30,3 +30,19 @@ d8_routing_demo.list_node:
   requirements:
     #_custom_access: '\Drupal\d8_routing_demo\Controller\RouteController::listNodeAccess'
     _user_same_as_author: 'true'
+
+d8_routing_demo.simple_form:
+  path: '/simple-form'
+  defaults:
+    _form: '\Drupal\d8_routing_demo\Form\SimpleForm'
+    _title: 'Simple Form'
+  requirements:
+    _permission: 'access content'
+d8_routing_demo.manage_file_form:
+  path: 'admin/upload-file'
+  defaults:
+    _form: '\Drupal\d8_routing_demo\Form\ManageFileForm'
+    _title: 'ManageFileForm'
+  requirements:
+    _access: 'TRUE'
+  

@@ -1,0 +1,13 @@
+<?php
+
+use Drupal\file\FileInterface;
+
+function d8_routing_demo_validate_csv(FileInterface $file){
+  $errors = [];
+
+  $name = $file->getFilename();
+  if ($name != 'prathibha.csv') {
+    $errors[] = 'Only files named prathibha.csv will be accepted';
+  }
+  return $errors;
+}
